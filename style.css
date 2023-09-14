@@ -20,6 +20,7 @@ header {
 header h1 {
     font-size: 36px;
     margin-bottom: 10px;
+    color: #007BFF; /* Couleur du titre */
 }
 
 /* Style de la section de projet */
@@ -34,6 +35,7 @@ header h1 {
 .project h2 {
     font-size: 24px;
     margin-top: 10px;
+    color: #007BFF; /* Couleur des titres de projet */
 }
 
 .project p {
@@ -42,10 +44,10 @@ header h1 {
 }
 
 .project img {
-    max-width: 100%;
+    max-width: 25vw;
     height: auto;
     margin-top: 10px;
-    max-height: 200px; /* Limiter la hauteur des images */
+    max-height: 25vw; /* Un quart de la largeur de la fenêtre */
 }
 
 /* Style du pied de page */
