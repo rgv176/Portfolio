@@ -45,6 +45,7 @@ header h1 {
     max-width: 100%;
     height: auto;
     margin-top: 10px;
+    max-height: 200px; /* Limiter la hauteur des images */
 }
 
 /* Style du pied de page */
@@ -57,10 +58,12 @@ footer {
 
 /* Liens */
 a {
-    color: #55c500; /* Couleur des liens */
+    color: #007BFF; /* Couleur des liens */
     text-decoration: none; /* Supprimer la soulignement des liens */
+    transition: color 0.3s; /* Transition de couleur lors du survol */
 }
 
 a:hover {
+    color: #55c500; /* Nouvelle couleur au survol */
     text-decoration: underline; /* Souligner les liens au survol */
 }
